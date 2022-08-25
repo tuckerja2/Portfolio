@@ -46,4 +46,31 @@ li>a:hover {
 /* create main content container */
 .main-content{
     flex-basis: 80%;
+}
+
+@media screen and (max-width:700px) {
+    .container-1 {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .content-sidebar {
+        text-align: center;
+        font-size: 120%;
+    }
+ }
+ ul {
+    display: flex;
+    flex-wrap: wrap;
+    }
+   
+    li {
+    height: 40vh;
+    flex-grow: 1;
+    list-style: none
+    }
+    .introImg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      width:100%;
  
