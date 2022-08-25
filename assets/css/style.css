@@ -1,0 +1,43 @@
+body {
+	background-color: rgb(13, 13, 14);
+}
+
+p>a {
+	text-decoration: none;
+	color: grey;
+}
+
+
+/* make links on sidebar change on hover */
+a:hover {
+	color: white;
+	background-color: black;
+}
+
+li>a:hover {
+	opacity: 40%;
+    transform: scale(1.5);
+}
+
+/* create container, sidebar container & content container for flexbox */
+
+.container-1 {
+    display: flex;
+    flex-wrap: row;
+}
+
+.sidebar{
+    flex-basis: 20%
+    min-height: 100%;
+    background-color: white;
+}
+
+.content-sidebar{
+    font-family: 'Alegreya Sans';
+	position: -webkit-sticky;
+	/* Safari */
+	position: sticky;
+	padding: 10%;
+	margin: auto;
+    
+}
