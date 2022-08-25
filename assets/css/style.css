@@ -41,3 +41,9 @@ li>a:hover {
 	margin: auto;
     
 }
+
+  
+/* create main content container */
+.main-content{
+    flex-basis: 80%;
+ 
