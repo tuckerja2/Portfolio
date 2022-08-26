@@ -61,7 +61,12 @@ li>a:hover {
  ul {
     display: flex;
     flex-wrap: wrap;
+    &:after {
+        content:'';
+        display:block;
+        flex-grow: 10;
     }
+}
    
     li {
     height: 40vh;
